@@ -22,10 +22,6 @@ library(tidyverse)
 
 
 
-access_token <- "2184943214-QU2I9AhVIRUOX2rDPfHwVdJQHeAGCgv4Ws7rRfA"
-access_secret <-"G2xhWVuxJRFJ98MGlz1q62IiWMCZMjpUopMfJCXaTrpoT"
-consumer_key <- "Q0Yr1WdCGDVB4gWDGnVRSKYbg"
-consumer_secret <- "oMl63QZ3dtGZYWurFDY2B45Eim03rlLU6hkNbbNpiv39m7Iv6R"
 
 
 access_token <- ""
