@@ -117,10 +117,10 @@ filterStream(file.name = file,
 streamedtweets <- parseTweets(file, verbose = FALSE)
 
 #set the proper encoding (UTF8 includes many characters not used in the English language)
-streamedtweets$text <- iconv(tweetsdf$text, from = "UTF-8", to = "ASCII", sub="")
+streamedtweets$text <- iconv(streamedtweets$text, from = "latin1", to = "ascii", sub = "byte")
 
 #replace line breaks with spaces
-streamedtweets$text <- gsub("\n", " ", tweetsdf$text)
+streamedtweets$text <- gsub("\n", " ", streamedtweets$text)
                        
 
 View(streamedtweets)
